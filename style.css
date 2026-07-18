@@ -13,11 +13,9 @@ body {
 .container {
     border: 2px solid black;
     padding: 20px;
-    background-color:darkslateblue;
 }
 
 .screen {
-    background-color: lightgray;
     box-sizing: border-box;
     border: 1px solid black;
     width: 250px;
@@ -40,8 +38,6 @@ body {
 
 
 .key {
-    background-color: lightgray;
-
     display: flex;
     justify-content: center;
     align-items: center;
