@@ -1,8 +1,10 @@
 * {
     font-family: monospace;
+    border-radius: 10px;
 }
 
 body {
+    background-color: cornflowerblue;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -11,11 +13,13 @@ body {
 }
 
 .container {
+    background-color: lightgray;
     border: 2px solid black;
     padding: 20px;
 }
 
 .screen {
+    background-color: white;
     box-sizing: border-box;
     border: 1px solid black;
     width: 250px;
@@ -25,10 +29,10 @@ body {
     font-size: 20px;
     align-items: center;
     padding: 5px;
-
 }
 
 .keys {
+
     margin-top: 5px;
     display: flex;
     max-width: 250px;
@@ -38,6 +42,8 @@ body {
 
 
 .key {
+    background-color: white;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
